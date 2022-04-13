@@ -1,0 +1,74 @@
+/**Fonts**/
+/**Rboto Thin 100**/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/**Montserrat Light 300**/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+a, button, h1, h3{
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+.general-btn{
+    padding: 0 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.sep{
+    display: block;
+    height: 1px;
+    width: 80%;
+    background-color: white;
+    margin: 80px auto;
+}
+
+/**Header**/
+/**Header**/
+
+/**MobileFirst**/
+
+header{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.menu{
+    display: none;
+}
+
+.nav{
+    position: absolute;
+    top:100px;
+    right:20px;
+    padding: 10px;
+    width: 140px;
+    z-index: 100;
+    display: block;
+
+    background: none;
+    border: 1px solid white;
+    border-radius:5px;
+    line-height: 2em;
+}.nav a{
+    color: white;
+}
+
+/****/
+/****/

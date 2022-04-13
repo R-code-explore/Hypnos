@@ -1,0 +1,87 @@
+/**Banner**/
+/**Banner**/
+
+.banner{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 760px;
+}
+.banner img{
+    position: absolute;
+    width: 100%;
+    height: 760px;
+    object-fit: cover;
+    opacity: 40%;
+}
+.banner h3{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    color: white;
+}
+
+.banner-btn-group{
+    position: absolute;
+    display: flex;
+    top:300px;
+    width: 80%;
+    left: 20px;
+}
+.banner-btn{
+    border: solid 1px white;
+    background: none;
+    font-size: 1.2em;
+    padding: 10px;
+    color: white;
+    margin:0 10px;
+}
+.gg-arrow-down-o{
+    color: white;
+    top: 80%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+/*****/
+/*****/
+
+/**Discover**/
+/**Discover**/
+
+.discover{
+    width: 80%;
+    display: block;
+    padding: 0;
+    margin:auto;
+}.discover h3{
+    color: #FFF6AE;
+    line-height: 1.5em;
+}
+.discover p{
+    color: white;
+}
+.discover a{
+    color: #8583C5;
+}
+
+/****/
+/****/
+
+/**Carousel**/
+/**Carousel**/
+
+.carouselImages{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 850px;
+}
+.carouselImages p, .carouselImages h5{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+/****/
+/****/

@@ -1,0 +1,92 @@
+body{
+    background: black;
+}
+
+/**Booking**/
+/**Booking**/
+
+.suite-et1, .suite-et2, .suite-et3, .suite-et4{
+    display: none;
+} 
+
+p{text-align: center; width: 80%;margin: 40px auto;}
+
+.title-page{
+    width: 30%;
+    max-width: 350px;
+    text-align: start;
+    color: white;
+    margin: 80px 0 80px 10%;
+}
+
+form{
+    margin: 40px auto;
+}
+
+label{
+    display: block;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+select {
+    display: block;
+    border: none;
+    background: white;
+    margin: 20px auto;
+    font-size: 1.2em;
+    padding: .5em;
+}
+input{
+    display: block;
+    font-size: 1.2em;
+    margin: 20px auto;
+    padding: .5em;
+}
+#bouton{
+    padding: .5em;
+    display: block;
+    color: white;
+    background:none;
+    border: solid 1px #FFFFFF;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.dispo{
+    text-align: center;
+    color: white;
+}
+
+.bookBtn{
+    padding: .5em;
+    display: none;
+    color: white;
+    background:none;
+    border: solid 1px #FFFFFF;
+    border-radius: 5px;
+
+    margin: 20px auto;
+}
+
+@media (min-width: 850px){
+    form{
+        display: block;
+        width: 60%;
+        max-width: 650px;
+        margin: 40px auto;
+        padding: 15px;
+        border: solid 1px #FFFFFF;
+        border-radius: 10px;
+    }
+    label{text-align: start; margin-left:20px;}
+    input, select{
+        display: block;
+        margin: 20px 0 20px 20px;
+    }
+
+    .bookBtn{
+        display: none;
+    }
+}
+/****/
+/****/

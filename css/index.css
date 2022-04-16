@@ -14,7 +14,8 @@
     object-fit: cover;
     opacity: 40%;
 }
-.banner h3{
+.banner .desktop-title{ display: none; }
+.banner .mobile-title{
     position: absolute;
     top: 40px;
     left: 20px;
@@ -26,6 +27,7 @@
     display: flex;
     top:300px;
     width: 80%;
+    max-width: 500px;
     left: 20px;
 }
 .banner-btn{
@@ -35,12 +37,44 @@
     padding: 10px;
     color: white;
     margin:0 10px;
+}.banner-btn:hover{
+    color: grey;
 }
 .gg-arrow-down-o{
     color: white;
     top: 80%;
     left:50%;
     transform: translateX(-50%);
+}.gg-arrow-down-o:hover{
+    color: skyblue;
+}
+
+@media (min-width:850px){
+    .banner .mobile-title{
+        display: none;
+    }
+
+    .banner .desktop-title{
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+    }
+    
+    .banner-btn-group{
+        left: 50%;
+        transform: translate(-50%);
+        justify-content: space-between;
+    }
+    .banner-btn{
+        border: solid 1px white;
+        background: none;
+        font-size: 1.2em;
+        padding: 10px;
+        color: white;
+        margin:0 10px;
+    }
 }
 
 /*****/
@@ -51,6 +85,7 @@
 
 .discover{
     width: 80%;
+    max-width:850px;
     display: block;
     padding: 0;
     margin:auto;
@@ -63,6 +98,8 @@
 }
 .discover a{
     color: #8583C5;
+}.discover a:hover{
+    color:skyblue;
 }
 
 /****/
@@ -73,6 +110,7 @@
 
 .carouselImages{
     width: 80%;
+    max-width: 850px;
     margin: 0 auto;
     max-width: 850px;
 }

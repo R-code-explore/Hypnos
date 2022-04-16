@@ -1,9 +1,14 @@
 <?php
 
-$firstBtn;
-$secondBtn;
-$thirdBtn;
-$fourthBtn;
+$firstMenu = "Contact";
+$secondMenu = "Réserver";
+$thirdMenu = "Découvrir";
+$fourthMenu = "Compte";
+
+$firstBtn = 'public/contact.php';
+$secondBtn = 'booking/book.php';
+$thirdBtn = "#discover";
+$fourthBtn = 'connect/singin.php';
 
 $headTitle = "Hypnos - Accueil";
 
@@ -22,11 +27,12 @@ $pageCss = "css/index.css";
     <div class="banner">
         <img src="assets/index-banner.jpg">
 
-            <h3>Hypnos,<br>vous souhaite<br>la bienvenue</h3>
+            <h3 class="mobile-title">Hypnos,<br>vous souhaite<br>la bienvenue</h3>
+            <h3 class="desktop-title">Hypnos,<br>vous souhaite la bienvenue</h3>
 
             <div class="banner-btn-group">
-                <a class="banner-btn general btn" href="">Découvrir</a>
-                <a class="banner-btn general-btn" href="">Réserver</a>
+                <a class="banner-btn general btn" href="#discover">Découvrir</a>
+                <a class="banner-btn general-btn" href="booking/book.php">Réserver</a>
             </div>
 
             <a href="#discover"><i class="gg-arrow-down-o"></i></a>
@@ -54,22 +60,22 @@ $pageCss = "css/index.css";
     <div class="carousel-item active">
       <img src="assets/index-hotel1.jpg" class="d-block w-100">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Le luxe à votre portée</h5>
+        <p>Découvrez un reveil au milieu d'un petit coin de paradis</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="assets/index-hotel2.jpg" class="d-block w-100">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+      <h5>Un confort que vous ne pouvez refuser</h5>
+        <p>La qualité de notre service est à la hauteur de vos plus hautes attentes</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="assets/index-hotel3.jpg" class="d-block w-100">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Vous relaxer</h5>
+        <p>Se relaxer après une longue période de travail ou simplement parce qu'on le mérite</p>
       </div>
     </div>
   </div>
@@ -90,3 +96,5 @@ $pageCss = "css/index.css";
     <?php
     include 'page_assets/footer.php';
     ?>
+
+<div class="sep"></div>

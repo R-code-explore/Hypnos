@@ -23,16 +23,25 @@
 </head>
 <body>
 
+<button type="button" class="btn btn-light btn-floating btn-lg" id="btn-back-to-top"> <i class="gg-arrow-long-up"></i> </button>
+
 <header class="header">
     <div class="logo">
-        <img src="../assets/logo.PNG">
+        <a href="../index.php"><img src="../assets/logo.PNG"></a>
     </div>
 
     <button class="general-btn menuBtn">Navigation</button>
     <div class="menu">
-        <a href="">Contact</a>
-        <a href="">Réserver</a>
-        <a href="">Découvrir</a>
-        <a href="">Connexion</a>
+        <a href="<?=$firstBtn;?>"><?=$firstMenu;?></a>
+        <a href="<?=$secondBtn;?>"><?=$secondMenu;?></a>
+        <a href="<?=$thirdBtn;?>"><?=$thirdMenu;?></a>
+        <a href="<?=$fourthBtn;?>"><?=$fourthMenu;?></a>
+    </div>
+
+    <div class="desktop-menu">
+        <a href="<?=$firstBtn;?>"><?=$firstMenu;?></a>
+        <a href="<?=$secondBtn;?>"><?=$secondMenu;?></a>
+        <a href="<?=$thirdBtn;?>"><?=$thirdMenu;?></a>
+        <a href="<?=$fourthBtn;?>"><?=$fourthMenu;?></a>
     </div>
 </header>

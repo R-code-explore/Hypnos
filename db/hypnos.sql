@@ -3,7 +3,6 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : jeu. 21 avr. 2022 à 18:00
 -- Version du serveur : 5.7.36
 -- Version de PHP : 8.0.13
 
@@ -37,9 +36,6 @@ CREATE TABLE IF NOT EXISTS `hotels` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
---
--- Déchargement des données de la table `hotels`
---
 
 INSERT INTO `hotels` (`id`, `nom`, `ville`, `adresse`, `description`) VALUES
 (1, 'Hypnos-Paris', 'Paris', '4 rue du Test', 'Le Lorem Ipsum est simplement du faux texte employÃ© dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l\'imprimerie depuis les annÃ©es 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour rÃ©aliser un livre spÃ©cimen de polices de texte.'),

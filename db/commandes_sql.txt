@@ -1,0 +1,37 @@
+Création de la base de données
+
+Un fichier de génération sql est disponible dans le dossier "db" à la racine du dossier site
+(Penser à avoir ajouté mysql au path du système avant)
+
+Connexion au serveur Local:
+- mysql -u root -p
+
+Création de la base de données:
+- CREATE DATABASE hypnos
+
+Avant création des tables, il faut sélectionner la base de données. Pour cela:
+- use hypnos
+
+exemple de la méthode de création des différentes tables que j'ai utilisé:
+
+- CREATE TABLE hotels (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  nom varchar(255) NOT NULL,
+  ville varchar(255) NOT NULL,
+  adresse varchar(255) NOT NULL,
+  description text NOT NULL
+);
+
+
+- CREATE TABLE mess (
+  id int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+  nom varchar(250) NOT NULL,
+  email varchar(250) NOT NULL,
+  choix_sujet varchar(255) NOT NULL,
+);
+
+Les tables restantes sont:
+
+- suites
+- users
+- reservations

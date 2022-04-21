@@ -1,0 +1,55 @@
+body{
+    background:black;
+}
+
+h1{
+    display: block;
+    text-align: start;
+    color: white;
+    margin: 100px 20%;
+    width: 40%;
+}
+
+form{
+    background: #5161D9;
+    display: block;
+    width: 80%;
+    max-width: 750px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 80px auto;
+}
+
+form input{
+    display: block;
+    width: 50%;
+    padding: 15px;
+    margin: 20px auto;
+}
+form button{
+    display: block;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    margin:10px auto;
+    text-align: center;
+}
+
+.auth_block{
+    margin: 120px auto;
+}
+
+.auth_options{
+    display: block;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    margin:10px auto;
+    text-align: center;
+}

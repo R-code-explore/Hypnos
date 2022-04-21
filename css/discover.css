@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+h1{
+    display: block;
+    text-align: start;
+    color: white;
+    margin: 100px 20%;
+    width: 40%;
+}
+
+.hotel-presentation{
+    background: #5161D9;
+    width: 80%;
+    max-width: 850px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 40px auto;
+}
+
+.info{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hotel-presentation > img{
+    display: block;
+    width: 85%;
+    height: 350px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.glr_imgs{
+    display: flex;
+    width: 85%;
+    height: 150px;
+    justify-content: space-between;
+    margin:20px auto;
+}.glr_imgs img{
+    object-fit: cover;
+}

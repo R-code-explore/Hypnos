@@ -5,6 +5,6 @@
     <p>Téléphone: 03 00 00 00 00</p>
 </footer>
 
-<script src="../js/main.js"></script>
+<script src="<?=$footerjs;?>"></script>
 </body>
 </html>

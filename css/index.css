@@ -14,8 +14,8 @@
     object-fit: cover;
     opacity: 40%;
 }
-.banner .desktop-title{ display: none; }
-.banner .mobile-title{
+.desktop-title{ display: none; }
+.mobile-title{
     position: absolute;
     top: 40px;
     left: 20px;
@@ -50,16 +50,17 @@
 }
 
 @media (min-width:850px){
-    .banner .mobile-title{
+    .mobile-title{
         display: none;
     }
 
-    .banner .desktop-title{
-        position: absolute;
-        top: 80px;
+    .desktop-title{
+        display: block;
+        position:absolute;
+        color: white;
+        top:100px;
         left: 50%;
         transform: translateX(-50%);
-        color: white;
     }
     
     .banner-btn-group{

@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -16,7 +20,7 @@
     <link href='https://cdn.jsdelivr.net/npm/css.gg/icons/all.css' rel='stylesheet'>
 
     <!--Personal Css-->
-    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="<?=$generalcss;?>">
     <link rel="stylesheet" href="<?=$pageCss;?>">
 
     <title><?=$headTitle;?></title>
@@ -27,7 +31,7 @@
 
 <header class="header">
     <div class="logo">
-        <a href="../index.php"><img src="../assets/logo.PNG"></a>
+        <a href="index.php"><img src="<?=$logo;?>"></a>
     </div>
 
     <button class="general-btn menuBtn">Navigation</button>

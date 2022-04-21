@@ -1,21 +1,24 @@
 <?php
-
+session_start();
 $firstMenu = "Contact";
 $secondMenu = "Réserver";
 $thirdMenu = "Découvrir";
 $fourthMenu = "Compte";
 
-$firstBtn = 'public/contact.php';
-$secondBtn = 'booking/book.php';
+$firstBtn = 'contact.php';
+$secondBtn = 'book.php';
 $thirdBtn = "#discover";
-$fourthBtn = 'connect/singin.php';
+$fourthBtn = 'account.php';
 
 $headTitle = "Hypnos - Accueil";
+$logo = "assets/logo.PNG";
+$footerjs = "js/main.js";
 
+$generalcss = "css/general.css";
 $pageCss = "css/index.css";
 ?>
     <?php
-    include 'page_assets/header.php';
+    include 'header.php';
     ?>
 
     <style>
@@ -32,7 +35,7 @@ $pageCss = "css/index.css";
 
             <div class="banner-btn-group">
                 <a class="banner-btn general btn" href="#discover">Découvrir</a>
-                <a class="banner-btn general-btn" href="booking/book.php">Réserver</a>
+                <a class="banner-btn general-btn" href="book.php">Réserver</a>
             </div>
 
             <a href="#discover"><i class="gg-arrow-down-o"></i></a>
@@ -43,7 +46,7 @@ $pageCss = "css/index.css";
     <div id="discover" class="discover">
         <h3>Découvrir Hypnos</h3>
         <p>Hypnos est un groupe hôtelier fondé en 2004. Propriétaire de 7 établissements dans les quatre coins de l’hexagone, chacun de ces hôtels s’avère être une destination idéale pour les couples en quête d’un séjour romantique à deux.</p>
-        <a href="">En savoir plus >></a>
+        <a href="hotels.php">En savoir plus >></a>
     </div>
 
     <div class="sep"></div>
@@ -94,7 +97,7 @@ $pageCss = "css/index.css";
     <div class="sep"></div>
 
     <?php
-    include 'page_assets/footer.php';
+    include 'footer.php';
     ?>
 
 <div class="sep"></div>

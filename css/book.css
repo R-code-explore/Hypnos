@@ -1,92 +1,47 @@
 body{
+    margin:0;
     background: black;
-}
-
-/**Booking**/
-/**Booking**/
-
-.suite-et1, .suite-et2, .suite-et3, .suite-et4{
-    display: none;
-} 
-
-p{text-align: center; width: 80%;margin: 40px auto;}
-
-.title-page{
-    width: 30%;
-    max-width: 350px;
-    text-align: start;
     color: white;
-    margin: 80px 0 80px 10%;
+}
+.title-page{
+    display: block;
+    width: 40%;
+    margin: 40px 20%;
 }
 
 form{
-    margin: 40px auto;
+    display: block;
+    width: 80%;
+    max-width: 750px;
+    padding: 15px;
+    margin: 80px auto;
+    background: #5161D9;
+    border-radius: 10px;
 }
 
-label{
+.carousel_display{
+    width: 80%;
+    margin: 20px auto;
+}
+form h3, form h5, form p{
     display: block;
+    width: 80%;
+    margin: 20px auto
+}
+
+.carousel_display img{
+    height: 200px;
+    object-fit: cover;
+}
+
+form a, form button{
+    display: block;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
     color: white;
-    font-size: 1.2em;
+    margin:10px auto;
     text-align: center;
 }
-select {
-    display: block;
-    border: none;
-    background: white;
-    margin: 20px auto;
-    font-size: 1.2em;
-    padding: .5em;
-}
-input{
-    display: block;
-    font-size: 1.2em;
-    margin: 20px auto;
-    padding: .5em;
-}
-#bouton{
-    padding: .5em;
-    display: block;
-    color: white;
-    background:none;
-    border: solid 1px #FFFFFF;
-    border-radius: 5px;
-    margin: 20px auto;
-}
-.dispo{
-    text-align: center;
-    color: white;
-}
-
-.bookBtn{
-    padding: .5em;
-    display: none;
-    color: white;
-    background:none;
-    border: solid 1px #FFFFFF;
-    border-radius: 5px;
-
-    margin: 20px auto;
-}
-
-@media (min-width: 850px){
-    form{
-        display: block;
-        width: 60%;
-        max-width: 650px;
-        margin: 40px auto;
-        padding: 15px;
-        border: solid 1px #FFFFFF;
-        border-radius: 10px;
-    }
-    label{text-align: start; margin-left:20px;}
-    input, select{
-        display: block;
-        margin: 20px 0 20px 20px;
-    }
-
-    .bookBtn{
-        display: none;
-    }
-}
-/****/
-/****/

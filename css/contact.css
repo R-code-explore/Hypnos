@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    background:black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 120px auto;
+}
+
+form{
+    color: white;
+    display: block;
+    width: 80%;
+    max-width: 450px;
+    margin: 40px auto;
+    margin-top:100px;
+}
+
+form div input, form div #subject{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+}
+
+.radio{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+}.radio input{
+    width: 50%;
+}.radio label{
+    width: 50%;
+}
+
+#submit{
+    background: none;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    display: block;
+    margin: 20px auto;
+}

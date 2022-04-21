@@ -1,0 +1,80 @@
+body{
+    background:black;
+}
+
+.hotel-info{
+    display: block;
+    width: 80%;
+    max-width: 550px;
+    margin:20px auto;
+    padding: 15px;
+    border:solid 1px white;
+    border-radius: 10px;
+}
+
+textarea{display: block;
+    width: 80%;
+    max-width: 350px;
+    resize: none;
+}
+
+h1, h3, h5, p, a, label{
+    color: white;
+}
+
+h1{
+    display: block;
+    text-align: start;
+    color: white;
+    margin: 100px 20%;
+    width: 40%;
+}
+
+.logoutBtn, .button{
+    display: block;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    margin:10px auto;
+    text-align: center;
+}
+
+.logoutBtn{
+    margin: 80px 20%;
+}
+
+form{
+    background: #5161D9;
+    display: block;
+    width: 80%;
+    max-width: 550px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 80px auto;
+}
+.label_input{
+    display: block;
+    width: 100%;
+    margin:20px auto;
+}.label_input input{
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dispo_choice{
+    display: flex;
+    margin:20px;
+    padding: 15px;
+}.dispo_choice input{
+    display: block;
+    margin: 0 20px;
+}
+
+img{
+    display: block;
+    width: 200px;
+}

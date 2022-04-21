@@ -179,5 +179,35 @@ include 'header.php';
                 <button class="button" type="submit">Supprimer</button>
             </form>
         </div>
+
+        <div class="messages">
+        <h5 id="mess">Messages</h5>
+            <?php 
+            
+            require_once 'connect.php';
+
+            $sqlMess = "SELECT `id`, `nom`, `email`, `choix_sujet` FROM `mess`";
+
+            $queryMess = $db->prepare($sqlMess);
+            $queryMess->execute();
+            $messages = $queryMess->fetchAll();
+            
+            foreach($messages as $message):
+
+            ?>
+            <div class="content">
+            <p>Nom: <?=$message["nom"]?></p>
+            <p>Email: <?=$message["email"]?></p>
+            <p>Sujet: <?=$message["choix_sujet"]?></p>
+            </div>
+            <?php endforeach; ?>
+            
+            </div>
         
 </div>
+
+<?php
+
+include 'footer.php';
+
+?>

@@ -70,3 +70,17 @@ form{
     border-radius: 10px;
     color:white;
 }
+
+.messages{
+    display: block;
+    width: 60%;
+    max-width: 450px;
+    margin: 40px auto;
+    color: white;
+    padding: 15px;
+    border: solid 1px white;
+}
+
+.content{
+    margin: 40px auto;
+}
